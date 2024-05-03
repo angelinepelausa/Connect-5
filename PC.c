@@ -38,7 +38,7 @@ int main() {
         printf("\n");
     }
     printf("Enter column: ");
-    scanf("%c", &c);
+    scanf(" %c", &c);
     switch (tolower(c)){
         case 'a':
             block(1, table);
